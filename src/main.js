@@ -7,8 +7,8 @@ import Todos from './views/Todos.vue';
 import './index.css'
 
 const routes = [
-    { path: "/", component: Posts},
-    { path: "/todos", component: Todos},
+    { path: '/', component: Posts},
+    { path: '/todos', component: Todos},
 ];
 
 const router = createRouter({
