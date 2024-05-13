@@ -1,14 +1,14 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue'
-import Posts from './views/Posts.vue';
-import Todos from './views/Todos.vue';
+import Post from './views/Posts.vue';
+import Todo from './views/Todos.vue';
 // add this
 import './index.css'
 
 const routes = [
-    { path: '/', component: Posts},
-    { path: '/todos', component: Todos},
+    { path: '/', component: Post},
+    { path: '/todo', component: Todo},
 ];
 
 const router = createRouter({
